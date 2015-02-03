@@ -7,7 +7,10 @@
 # This script should work with OSX 10.6 through at least 10.9
 # (use 'man mdutil' in the terminal to see if the parameters match on your version of OS-X)
 #
-# if you run into issues with spotlight (e.g. an error message that says Spotlight Server disabled)
+# WARNING: This script does not work when the destination path is not pointing to the 
+#          root of the volume!
+#
+# If you run into issues with spotlight (e.g. an error message that says Spotlight Server disabled)
 # you can stop and restart the service
 # stop spotlight completely:
 # sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
